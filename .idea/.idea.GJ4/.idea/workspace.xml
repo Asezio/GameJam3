@@ -20,32 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="720f3727-2ee9-4bdf-a34c-9f122786a696" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/FightingUnityChan_FreeAsset/FightingUnityChan_FreeAsset/Animations/FUCM02_0004_CH01_AS_MAWAK.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/FightingUnityChan_FreeAsset/FightingUnityChan_FreeAsset/Animations/FUCM02_0004_CH01_AS_MAWAK.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/FightingUnityChan_FreeAsset/FightingUnityChan_FreeAsset/Animations/FUCM05_0001_M_CMN_LJAB.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/FightingUnityChan_FreeAsset/FightingUnityChan_FreeAsset/Animations/FUCM05_0001_M_CMN_LJAB.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/FightingUnityChan_FreeAsset/FightingUnityChan_FreeAsset/Animations/FUCM_04_0001_RHiKick.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/FightingUnityChan_FreeAsset/FightingUnityChan_FreeAsset/Animations/FUCM_04_0001_RHiKick.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_DAMAGED00.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_DAMAGED00.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_DAMAGED01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_DAMAGED01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_JUMP01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_JUMP01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_JUMP01B.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_JUMP01B.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_RUN00_F.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_RUN00_F.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_SLIDE00.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_SLIDE00.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_WAIT00.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_WAIT00.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_WALK00_F.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_WALK00_F.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_WIN00.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Package/Unity-chan! Model/Art/Animations/unitychan_WIN00.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GJ4/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GJ4/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GJ4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GJ4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Character/unitychan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Character/unitychan.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +34,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/AttackZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Script/UI/PlayerHealthUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/AttackZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs" />
       </list>
     </option>
@@ -105,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616986495156</updated>
-      <workItem from="1616986512737" duration="8169000" />
+      <workItem from="1616986512737" duration="11109000" />
     </task>
     <servers />
   </component>

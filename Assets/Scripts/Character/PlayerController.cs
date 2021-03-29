@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
         characterStats = GetComponent<CharacterStats>();
-        attackPoint.enabled = false;
+        //attackPoint.enabled = false;
 
     }
 
@@ -49,20 +49,25 @@ public class PlayerController : MonoBehaviour
                 }
 
                 Vector3 movement;
+                Vector3 rotat;
                 // float h = Input.GetAxisRaw("Horizontal")* speed * Time.deltaTime;
                 // float v = Input.GetAxisRaw("Vertical")* speed * Time.deltaTime;
                  
-                
-                float horizontalInput = Input.GetAxis("Horizontal") * speed;
+                float rota = Input.GetAxis("Horizontal");
+                float horizontalInput = rota * speed;
                 float verticalInput = Input.GetAxis("Vertical") * speed;
                 
-                movement=new Vector3(horizontalInput, 0f, verticalInput)*Time.deltaTime;
-                rb.MovePosition(transform.position+movement);
+                movement=transform.forward * verticalInput * Time.deltaTime;
+                rotat=new Vector3(0,rota * 90f * Time.deltaTime,0f);
+                
+                rb.MovePosition(transform.position + movement);
+                //transform.
                 //We keep our y-velocity the same (if we set it to 0, we can't fall/jump anymore);
                 Vector3 input = new Vector3(horizontalInput, rb.velocity.y, verticalInput);
                 //We rotate the input based on the rotation of our unit.
                 //This way, when the character is rotated, he moves in his own directions
                 Vector3 rotatedInput = transform.TransformVector(input);
+                transform.Rotate(rotat);
                 rb.velocity = input;
                 anim.SetFloat("Speed", rb.velocity.magnitude);
             }

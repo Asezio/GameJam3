@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4308739448958491833}
   - component: {fileID: 7088793263117259133}
+  - component: {fileID: 7012443741732349696}
   m_Layer: 0
   m_Name: AttackPoint
   m_TagString: Untagged
@@ -42,8 +43,20 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.19657087, y: 0.04800856, z: 0.21645403}
+  m_Center: {x: -0.00081419945, y: -0.7997305, z: 0.06278968}
+--- !u!114 &7012443741732349696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3408946067448999025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d4f43a0274eaa439d3a41a12b66e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5269244548780574721
 GameObject:
   m_ObjectHideFlags: 0
